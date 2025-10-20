@@ -27,22 +27,32 @@
     <!--& ========== End Main CSS Link ========== -->
   </head>
   <body data-bs-spy="scroll" data-bs-target="#navbar-scroll">
+<nav class="navbar navbar-expand-lg navbar-dark group back  d-flex justify-content-between">
+        <div class="container">
+            <a class="navbar-brand ms-5" href="#">SMART LOGIN</a>
+            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+ </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+
+                    <li class="nav-item ">
+                        <a class="nav-link btn btn-outline-warning " href="/" onclick="logout()">Logout</a>
+                    </li>
 
 
+                </ul>
+
+            </div>
+       
+    </nav>
 
 <section class="sec pt-5">
-<div class="w-50 mx-auto content shadow p-5 group">
+<div class="w-50 mx-auto content shadow p-5 group ali">
 
-<h1 class="text-center pt-3">Smart Login System</h1>
-<input id="signupName" class="form-control my-3 " placeholder="Enter your name" type="text">
-<input id="signupEmail" class="form-control my-3" placeholder="Enter your email" type="email">
-<input id="signupPassword" class="form-control my-3" placeholder="Enter  password" type="password">
+<h1 class="text-center pt-3">Welcome Ali</h1>
 
-<p></p>
-
-<button onclick="login()" class="btn btn-outline-info w-100 my-3">Login</button>
-
-<p class="text-white text-center">You have an account? <a class="text-white" href="/signin.html">Signin</a></p>
 </div>
 </section>
 
