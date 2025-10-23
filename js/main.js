@@ -49,4 +49,10 @@ users.push(user);
 
 
 
-   
+   function logout() {
+  // حذف المستخدم الحالي
+  localStorage.removeItem("currentUser");
+
+  // توجيهه لصفحة الدخول
+  window.location.href = "index.html";
+}
